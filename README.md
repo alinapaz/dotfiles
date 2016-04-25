@@ -25,4 +25,5 @@ Use `chruby` (for changing the version of Ruby used for different projects) and 
 Bundler manages gems via a Gemfile. Confusingly, the gem is called `bundler`, but the commandline command is `bundle`
 
 - To install bundler, run `gem install bundler` (this is the only gem you should ever install using `gem install`; always install all other gems using a Gemfile and the `bundle` command)
+- Open a directory (example: `cd blog`) that has a Gemfile. Otherwise you will get an error saying `Could not locate Gemfile or .bundle/ directory`. 
 - To install gems using a Gemfile, use `bundle install`
